@@ -1,5 +1,14 @@
 {
   "private": true,
   "name": "fantastic-umbrella",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
