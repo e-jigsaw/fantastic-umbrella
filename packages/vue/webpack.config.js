@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../planet/dist'),
-    filename: '[name].js'
+    filename: 'vue-[name].js'
   },
   module: {
     rules: [
