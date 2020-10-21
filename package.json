@@ -1,20 +1,5 @@
 {
   "private": true,
   "name": "fantastic-umbrella",
-  "license": "MIT",
-  "devDependencies": {
-    "@babel/preset-env": "^7.12.0",
-    "@babel/preset-react": "^7.10.4",
-    "@vue/babel-preset-app": "^4.5.6",
-    "@vue/cli-service-global": "^4.5.6",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^5.0.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "serve": "^11.3.2",
-    "vue": "^2.6.12",
-    "vue-loader": "^15.9.3",
-    "vue-template-compiler": "^2.6.12",
-    "webpack-cli": "^4.1.0"
-  }
+  "license": "MIT"
 }

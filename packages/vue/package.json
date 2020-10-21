@@ -1,0 +1,13 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@vue/cli-service-global": "^4.5.6"
+  },
+  "scripts": {
+    "dev": "vue-cli-service build --target wc-async --name vue-app src/App.vue && mv dist/vue-app.js ../planet/dist"
+  }
+}
