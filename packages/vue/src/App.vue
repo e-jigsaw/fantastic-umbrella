@@ -1,3 +1,3 @@
 <template>
-  <h1>It works!</h1>
+  <h1>hi im rendered by vue</h1>
 </template>
