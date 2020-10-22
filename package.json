@@ -1,5 +1,14 @@
 {
   "private": true,
   "name": "fantastic-umbrella",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@vue/cli-service-global",
+      "**/@vue/cli-service-global/**"
+    ]
+  }
 }
